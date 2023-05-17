@@ -50,7 +50,6 @@ function generatePassword(length) {
   }
   return password;
 }
-console.log(types[2].value);
 
 (async () => {
   const response = await prompts(requirements);
